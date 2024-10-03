@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'DateFont';
+    src: url('./fonts/Faith\ Collapsing.ttf');
+}
+
+@font-face {
+    font-family: 'VerseFont';
+    src: url('./fonts/The\ Billion\ Monoline.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fde8cd; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+#verseContainer {
+    margin: 1rem; 
+    padding: 2rem; 
+    max-width: 1200px;
+    line-height: 3rem;
+    border: solid 2px #ffffff;
+    background-color: hsla(0, 25%, 81%, 0.557);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.header {
+    padding: 10px 0;
+    font-size: 4rem;
+    font-family: 'DateFont', Georgia, 'Times New Roman', Times, sans-serif;
+    color: goldenrod;
+    -webkit-text-stroke: 0.8px black;
+}
+
+#verse {
+    margin-top: 0;
+    font-size: 4rem;
+    line-height: 4.2rem;
+    font-family: 'VerseFont', Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem; 
+
+}
+
+.suffix {
+    font-size: 0.6em; 
+    vertical-align: super;
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .header {
+        font-size: 2rem; 
+        margin: 1rem auto;
+    }
+
+    #verseContainer {
+        margin: 0 auto; 
+        padding: 2rem; 
+    }
+    
+    #verse {
+        font-size: 2rem;
+        line-height: 3rem;
+
+    }
+}
