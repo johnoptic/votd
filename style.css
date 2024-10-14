@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'VerseFont';
-    src: url('./fonts/The\ Billion\ Monoline.ttf');
+    src: url('./fonts/adelia.ttf');
 }
 
 body {
@@ -41,8 +41,8 @@ body {
 
 #verse {
     margin-top: 0;
-    font-size: 4rem;
-    line-height: 4.2rem;
+    font-size: 3.4rem;
+    line-height: 7rem;
     font-family: 'VerseFont', Georgia, 'Times New Roman', Times, serif;
     padding: 1rem; 
 
